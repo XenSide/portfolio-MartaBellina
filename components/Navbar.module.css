@@ -1,0 +1,16 @@
+.main {
+  padding: 23px 158px;
+}
+
+.navbarelement {
+  position: relative;
+}
+
+.navbarelement::after {
+  display: block;
+  content: attr(data-text);
+  font-weight: bold;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}

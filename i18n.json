@@ -1,0 +1,12 @@
+{
+  "locales": ["en", "it"],
+  "defaultLocale": "it",
+  "keySeparator": ".",
+  "pages": {
+    "*": ["common"],
+    "/": ["home"],
+    "/portfolio": ["portfolio"],
+    "/about": ["about"],
+    "/contact": ["contact"]
+  }
+}
