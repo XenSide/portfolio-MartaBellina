@@ -1,6 +1,12 @@
 {
-  "": "HOME",
-  "portfolio": "PORTFOLIO",
-  "about": "ABOUT",
-  "contact": "CONTACT"
+  "navbar": {
+    "": "HOME",
+    "portfolio": "PORTFOLIO",
+    "about": "ABOUT",
+    "contact": "CONTACT"
+  },
+  "footer": {
+    "text": "Ready to create<0/> something awesome?",
+    "buttoncontent": "GET IN TOUCH"
+  }
 }

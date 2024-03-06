@@ -1,0 +1,3 @@
+.image-container:hover img {
+  content: url("/path-to-hover-image.svg");
+}

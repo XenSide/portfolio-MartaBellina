@@ -1,4 +1,43 @@
 {
-  "title": "Hello world",
-  "variable-example": "Using a variable {{count}}"
+  "Hero": {
+    "smalltitle": "",
+    "title": "<0>I’m <2>\u00A0Marta Bellina<1>.</1>\u00A0</2></0>",
+    "subtitle": ""
+  },
+  "About": {
+    "Title": "About me",
+    "Content": "Lorem ipsum dolor sit amet consectetur. Tellus in congue et et neque. Eros placerat egestas facilisis purus mi amet faucibus enim. Dignissim diam nunc id mauris iaculis placerat. Varius purus in enim nec vel lectus eros tempus. Augue nibh non porttitor eget molestie augue. Turpis id lacus velit elit duis enim sed gravida. Ullamcorper varius est orci interdum nulla arcu interdum aenean viverra. Varius vitae ultrices curabitur rutrum ut nulla sollicitudin quam phasellus. Pellentesque sollicitudin semper consectetur pharetra. Urna vulputate malesuada nulla egestas fringilla. Vestibulum eu auctor purus."
+  },
+  "Services": [
+    {
+      "title": "Packaging",
+      "description": "Lorem Packaging ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit.",
+      "image": "/servicesPackaging.svg"
+    },
+    {
+      "title": "UI/UX DESIGN",
+      "description": "Lorem UI/UX ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit.",
+      "image": "/servicesUIUX.svg"
+    },
+    {
+      "title": "BRANDING & IDENTITY",
+      "description": "Lorem Branding ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit.",
+      "image": "/servicesBranding.svg"
+    },
+    {
+      "title": "GRAPHIC DESIGN",
+      "description": "Lorem GRAPHIC ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit.",
+      "image": "/servicesGraphicDesign.svg"
+    },
+    {
+      "title": "WEB DESIGN",
+      "description": "Lorem WEB ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit.",
+      "image": "/servicesWebDesign.svg"
+    },
+    {
+      "title": "3D MODELLING",
+      "description": "Lorem 3D ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit.",
+      "image": "/services3DModelling.svg"
+    }
+  ]
 }

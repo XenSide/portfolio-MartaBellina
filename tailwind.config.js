@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        "3xl": "1920px",
+        "4xl": "2500px",
+      },
       colors: {
         "accent-1": "#DC2656",
       },

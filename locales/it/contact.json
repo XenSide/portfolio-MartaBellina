@@ -1,4 +1,20 @@
 {
-  "title": "Hello world",
-  "variable-example": "Using a variable {{count}}"
+  "Hero": {
+    "smalltitle": "",
+    "title": "<0>Get in touch<1>.</1></0>",
+    "subtitle": "Lorem ipsum dolor sit amet consectetur. Justo posuere suscipit condimentum posuere et mauris interdum ultricies."
+  },
+  "Contact": {
+    "title": "Contact",
+    "subtitle": "Lorem ipsum dolor sit amet consectetur. Tellus in congue et et neque.",
+    "flair1": "Lorem",
+    "flair2": "Ipsum Dolor",
+    "flair3": "amet consectetur",
+    "flair4": "recum nostru."
+  },
+  "QuadGallery": {
+    "title": "Last Projects",
+    "subtitle": "Lorem ipsum dolor sit amet consectetur. Tellus in congue et et neque. Eros placerat egestas facilisis purus mi amet faucibus enim.",
+    "link": "SEE MORE →"
+  }
 }

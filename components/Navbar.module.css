@@ -1,12 +1,10 @@
-.main {
-  padding: 23px 158px;
-}
-
 .navbarelement {
   position: relative;
+  font-size: 14px;
 }
 
 .navbarelement::after {
+  font-size: 14px;
   display: block;
   content: attr(data-text);
   font-weight: bold;

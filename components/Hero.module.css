@@ -1,0 +1,32 @@
+.hfull {
+  height: calc(100svh - 92px);
+}
+
+.animate {
+  animation: rotate 6s infinite;
+}
+
+.rotate {
+  transform: rotate(360deg);
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.bgImage {
+  position: absolute;
+  inset: 0px;
+  left: 974px;
+  top: 240px;
+  object-fit: cover;
+  color: transparent;
+}

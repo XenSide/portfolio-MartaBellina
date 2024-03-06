@@ -1,5 +1,5 @@
 .button {
-  padding: 5px 15px;
+  padding: 15px 30px;
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -7,7 +7,8 @@
 }
 
 .button:hover * {
-  --tw-invert: invert(100%);
+  color: white;
+  font-weight: 600;
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate)
     var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
