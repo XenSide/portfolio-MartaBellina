@@ -4,10 +4,10 @@
     "title": "<0>Portfolio<1>.</1></0>",
     "subtitle": "lorem ipsum dolor sit amet,<0/> consectetur adipiscing elit."
   },
-  "GalleryPortfolio": {
-    "Everything": "TUTTO",
-    "Personal": "Progetti personali",
-    "Commissions": "Commissioni"
+  "Filters": {
+    "Everything": "tutto",
+    "Personal": "progetti personali",
+    "Commissions": "commissioni"
   },
   "PortfolioEntries": [
     {

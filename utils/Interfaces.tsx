@@ -80,3 +80,15 @@ export interface PortfolioEntry {
   link: string;
   tag: string;
 }
+
+export interface Filters {
+  Everything: string;
+  Personal: string;
+  Commissions: string;
+}
+
+export interface PortfolioType {
+  Hero: HeroType;
+  Filters: Filters;
+  PortfolioEntries: PortfolioEntry[];
+}

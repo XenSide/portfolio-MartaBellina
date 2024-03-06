@@ -1,4 +1,4 @@
-import { Gallery } from "@/utils/Interfaces";
+import { Filters, Gallery, PortfolioEntry } from "@/utils/Interfaces";
 import { count } from "console";
 import localFont from "next/font/local";
 import Image from "next/image";
@@ -7,21 +7,13 @@ import React, { useState } from "react";
 
 const jeju = localFont({ src: "Jeju.ttf" });
 
-//TODO Export interface to interface file
-interface ShowcaseItem {
-  shortName: string;
-  title: string;
-  Description: string;
-  image: string;
-  link: string;
-  tag: string;
-}
-
 interface Props {
-  showcaseItems: ShowcaseItem[];
+  showcaseItems: PortfolioEntry[];
+  Filters: Filters;
+  lang?: string;
 }
 
-export const GalleryPortfolio = ({ showcaseItems }: Props) => {
+export const GalleryPortfolio = ({ showcaseItems, Filters, lang }: Props) => {
   let portfolioCont = 0;
   let [filter, setFilter] = useState("all");
 
@@ -29,24 +21,23 @@ export const GalleryPortfolio = ({ showcaseItems }: Props) => {
     <>
       <div className="flex flex-row w-full justify-center mb-32">
         <div className="flex w-1/2 justify-between">
-          {/* //TODO Change text inside buttons to use translation */}
           <button
             className={`${filter === "all" ? "text-red-600" : ""} text-xl`}
             onClick={() => setFilter("all")}
           >
-            EVERYTHING
+            {Filters?.Everything.toUpperCase()}
           </button>
           <button
             className={`${filter === "personal" ? "text-red-600" : ""} text-xl`}
             onClick={() => setFilter("personal")}
           >
-            PERSONAL PROJECTS
+            {Filters?.Personal.toUpperCase()}
           </button>
           <button
             className={`${filter === "commission" ? "text-red-600" : ""} text-xl`}
             onClick={() => setFilter("commission")}
           >
-            COMMISSIONS
+            {Filters?.Commissions.toUpperCase()}
           </button>
         </div>
       </div>
@@ -70,7 +61,9 @@ export const GalleryPortfolio = ({ showcaseItems }: Props) => {
                         <div className="flex flex-row mt-20 items-center">
                           <div className="bg-black w-[195px] h-[1px] mr-20"></div>
                           <Link href={`/portfolio/${item.shortName.toLowerCase()}`} className="flex flex-row">
-                            <p className="pr-3 text-[#DC2656] text-base">SEE MORE</p>
+                            <p className="pr-3 text-[#DC2656] text-base">{`${
+                              lang === "it" ? "VEDI DI PIÙ" : "SEE MORE"
+                            }`}</p>
                             <Image
                               src={"/portfolioFreccetta.svg"}
                               alt="freccetta"
@@ -109,7 +102,9 @@ export const GalleryPortfolio = ({ showcaseItems }: Props) => {
                               height={10}
                               className="transform rotate-180"
                             ></Image>
-                            <p className="pl-3 text-[#DC2656] text-base">SEE MORE</p>
+                            <p className="pl-3 text-[#DC2656] text-base">{`${
+                              lang === "it" ? "VEDI DI PIÙ" : "SEE MORE"
+                            }`}</p>
                           </Link>
                         </div>
                       </div>
