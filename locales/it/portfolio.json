@@ -8,5 +8,31 @@
     "Everything": "TUTTO",
     "Personal": "Progetti personali",
     "Commissions": "Commissioni"
-  }
+  },
+  "PortfolioEntries": [
+    {
+      "shortName": "Lineage",
+      "title": "Lineage",
+      "Description": "Lorem ipsum dolor sit amet consectetur. Enim pharetra faucibus consectetur ac. At ac feugiat tristique amet dignissim consequat morbi a. In ut egestas amet lectus orci fusce. Tincidunt facilisis dapibus nisl luctus odio scelerisque proi.",
+      "image": "https://placehold.co/926x604.png",
+      "link": "/portfolio",
+      "tag": "personal"
+    },
+    {
+      "shortName": "Magma",
+      "title": "Magma",
+      "Description": "Lorem ipsum dolor sit amet consectetur. Enim pharetra faucibus consectetur ac. At ac feugiat tristique amet dignissim consequat morbi a. In ut egestas amet lectus orci fusce. Tincidunt facilisis dapibus nisl luctus odio scelerisque proi.",
+      "image": "https://placehold.co/926x604.png",
+      "link": "/portfolio",
+      "tag": "commission"
+    },
+    {
+      "shortName": "Sherlock",
+      "title": "Sherlock's Apartment",
+      "Description": "Lorem ipsum dolor sit amet consectetur. Enim pharetra faucibus consectetur ac. At ac feugiat tristique amet dignissim consequat morbi a. In ut egestas amet lectus orci fusce. Tincidunt facilisis dapibus nisl luctus odio scelerisque proi.",
+      "image": "https://placehold.co/926x604.png",
+      "link": "/portfolio",
+      "tag": "personal"
+    }
+  ]
 }

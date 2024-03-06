@@ -71,3 +71,12 @@ export interface QuadGalleryType {
   subtitle: string;
   link: string;
 }
+
+export interface PortfolioEntry {
+  shortName: string;
+  title: string;
+  Description: string;
+  image: string;
+  link: string;
+  tag: string;
+}
