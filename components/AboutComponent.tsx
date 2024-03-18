@@ -26,7 +26,7 @@ export default function AboutComponent({ pageName, Translations }: Props) {
           </div>
           <div className="pr-[105px] mt-[60px] text-[18px] leading-[26px]">{Translations?.Content}</div>
           {pageName !== "about" ? (
-            <Button page={`/about`} style="mt-auto mb-[66px]">{`READ MORE`}</Button>
+            <Button page={`about`} style="mt-auto mb-[66px]">{`READ MORE`}</Button>
           ) : (
             <a
               className="px-[30px] py-[15px] rounded-[20px] flex justify-center hover:text-white hover:font-semibold filter mt-auto mb-[66px] border hover:bg-accent-1 hover:border-accent-1 w-fit h-fit border-black"
